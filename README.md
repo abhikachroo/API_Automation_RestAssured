@@ -1,6 +1,6 @@
 # API_Automation_RestAssured
 This Project explains API Automation using Java and Rest Assured
-It uses Java as programming language, TestNG framework and Rest-Assured Framework to work and Test with REST API's
+It uses Java as programming language, TestNG and Rest-Assured Framework to work and Test REST API's
 
 Steps to Follow -
 1. Create a Maven Project in Eclipse.
