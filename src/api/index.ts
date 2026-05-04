@@ -1,0 +1,1 @@
+export { PostsApi } from './PostsApi';
