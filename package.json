@@ -1,0 +1,19 @@
+{
+  "name": "api-automation-restassured-playwright",
+  "version": "1.0.0",
+  "description": "Playwright API test suite migrated from RestAssured/TestNG",
+  "scripts": {
+    "test": "playwright test",
+    "test:dev": "ENVIRONMENT=dev playwright test",
+    "test:staging": "ENVIRONMENT=staging playwright test",
+    "test:prod": "ENVIRONMENT=prod playwright test",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
